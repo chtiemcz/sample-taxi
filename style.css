@@ -1,0 +1,95 @@
+a {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #000; /* Задаем цвет ссылки (замените #000 на нужный вам цвет) */
+}
+body {
+	background-image: url('1586.png');
+    background-size: cover; /* Растягивает изображение на весь экран */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Предотвращает повторение изображения */
+    height: 100vh; /* Заполняет высоту экрана */
+    margin: 0; /* Убирает отступы по умолчанию у body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+  	
+#name {
+	color: white;
+	font-family: Anton;
+	font-size: 100px;
+	padding-bottom: 450px;
+	position: absolute;
+}
+
+#profession {
+	color: #f89722;
+	font-family: Arial, sans-serif;
+	font-size: 65px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 200px;
+}
+
+#info {
+	width: 500px; /* Ширина контейнера */
+    height: 250px; /* Высота контейнера */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* Ширина контейнера в процентах или другой единице измерения */
+    max-width: 600px; /* Максимальная ширина контейнера, чтобы избежать излишней ширины на больших экранах */
+    margin: 0 auto; /* Автоматический отступ слева и справа для центрирования */
+    text-align: center;
+}
+
+#adress {
+	display: flex;
+	font-family: Arial, sans-serif;
+	padding-top: 35px;
+	color: white;
+}
+
+#numer {
+	padding-top: 135px;
+	display: flex;
+	position: absolute;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+}
+
+#email {
+	position: absolute;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	font-family: Arial, sans-serif;
+	padding-top: 210px;
+	text-align: center;
+	padding-left: 20px;
+}
+
+#domain {
+	position: absolute;
+	display: flex;
+	font-size: 23px;
+	color: white;
+	font-family: Arial, sans-serif;
+	padding-top: 300px;
+}
+
+@media (max-width: 768px) {
+    .centered-container {
+        width: 90%;
+    }
+}
+
+#box1 {
+	display: flex;
+	position: absolute;
+	padding-right: 200px;
+	padding-bottom: 20px;
+}
